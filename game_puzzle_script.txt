@@ -1,0 +1,10 @@
+clear
+reset
+
+as os os
+as game_puzzle os_trap_wrappers game_puzzle
+
+ld os
+ld game_puzzle
+
+break set TRAP_HALT
